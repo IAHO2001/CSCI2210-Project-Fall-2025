@@ -1,0 +1,29 @@
+Classes assigned to Iris Haro:
+
+1. Customer
+   - Represents the users who use the system to browse menus, place orders, and make payments.
+   - Information stored: customer ID, name, email, phone number, address, order history, and payment preferences.
+   - CRUD functionalities:
+     * Create: Register a new customer account.
+     * Read: View customer details, order history, and active orders.
+     * Update: Edit personal information, update address or payment methods.
+     * Delete: Delete customer account.
+
+2. Restaurant
+   - Represents the restaurants participating in the food delivery system.
+   - Information stored: restaurant ID, name, location, contact information, operating hours, menu items, ratings, and order history.
+   - CRUD functionalities:
+     * Create: Add a new restaurant and its menu.
+     * Read: View restaurant details, menus, and ratings.
+     * Update: Update restaurant info, modify menu items, or change operating hours.
+     * Delete: Remove restaurant and associated data.
+
+3. Admin
+   - Represents the administrators who manage the overall system.
+   - Information stored: admin ID, name, email, role, and privileges.
+   - CRUD functionalities:
+     * Create: Add a new admin account.
+     * Read: Access all system information (customers, restaurants, delivery persons, orders, payments).
+     * Update: Update admin roles, permissions, or system settings.
+     * Delete: Remove admin accounts.
+   - Additional responsibilities: Monitor activity, resolve disputes, maintain system security, and generate reports.
