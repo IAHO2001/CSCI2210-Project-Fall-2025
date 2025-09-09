@@ -1,1 +1,28 @@
+Classes assigned to Jacob Chavez:
 
+1. Order
+   - Represents 
+   - Information stored:
+   - CRUD functionalities:
+     * Create: 
+     * Read:
+     * Update: 
+     * Delete: 
+
+2.  Delivery Person
+   - Represents 
+   - Information stored:
+   - CRUD functionalities:
+     * Create: 
+     * Read:
+     * Update: 
+     * Delete: 
+
+3. Cart
+   - Represents 
+   - Information stored:
+   - CRUD functionalities:
+     * Create: 
+     * Read:
+     * Update: 
+     * Delete: 
