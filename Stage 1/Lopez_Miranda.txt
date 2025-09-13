@@ -1,0 +1,56 @@
+Classes designated to Miranda Lopez: 
+
+1. Menu 
+
+- Represents the food and drink options that the different types of restaurants are offering. 
+
+- Information stored within the Menu class: menu_id (unique ID for each menu from different restaurants), name of food or drink item, a description of the food or drink item, the price of the food or drink item, menu categories (main course, appetizers, drinks, dessert, weekly specials), and the available stock for each food and drink option on the menu. 
+
+-CRUD Functions: 
+
+-- Create: Add new menu item
+
+-- Read: View menu items (by unique ID, category, etc...).
+
+-- Update: Edit pricing, description, and or availability of food and drink options. 
+
+-- Delete: Remove menu item
+
+
+
+2. Payment 
+
+- Represents the ability for the system to handle payments for orders being processed. 
+
+- Information stored within the Payment class: payment_id (unique ID assigned to each payment processed), order_id (link to order and gives a unique order ID), amount (amount charged for the order), payment_method (gives individual payment options, ex, card, Apple Pay, Venmo, etc), status (pending processing, successfully processed payment, or failed to process payment), and timestamp (stamps time of when payment and order was made by the customer).
+
+- CRUD Functions: 
+
+-- Create: Initiates a payment record for easy tracking of past and previous orders/transactions. 
+
+-- Read: Checks the payment status.
+
+-- Update: Updates the status of the payment.
+
+-- Delete: Removes/voids payment (removes payment method or refunds the individual).
+
+
+
+3. Review/Rating
+
+- Represents the ability to allow customers to leave feedback on the food and service provided. 
+
+- Information stored within the Review/Rating class: review_id (assigns a unique ID to each review made), user_id (displays the customer's username or user ID), menu_item_id (is assigned to the menu item that is being reviewed), rating (Range of 1-5 stars to rate experience and menu quality), comment (gives the customer the ability to make comments on the menu item and service), and timestamp (timestamps when the review was made). 
+
+- CRUD Functions: 
+
+-- Create: Add a new review.
+
+-- Read: Fetch reviews (this could be for one dish, an order, or for a user).
+
+-- Update: Edit review (user can modify their comment and review rating). 
+
+-- Delete: Remove inappropriate and or old reviews. 
+
+
+
