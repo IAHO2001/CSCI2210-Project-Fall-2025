@@ -1,22 +1,23 @@
 Classes assigned to Jacob Chavez:
 
 1. Order
-   - Represents the order being placed by a customer in the resturaunt. Show a status of the order as in progress or completed and able to calculate 
-      the total cost of the order. Track if order is pickup or delivery.
+   - Represents the order being placed by a customer ie items and vaules. Show a status of the order as in progress or completed. Assign delivery for 
+     order. 
    - Information stored: who placed the order, contents of the oder.
    - CRUD functionalities:
      * Create: create an order with information received from a customer
      * Read: be able to read and display back what the order was that was placed
-     * Update: be able to update and add to the order after been placed
-     * Delete: be able to delete information form the order
+     * Update: be able to update the status of the order aafter it is placed and delivery
+     * Delete: be able to delete information form the order or order completely
 
 2.  Delivery Person
-   - Represents the available delivery person and orders requiring delivery. Traks who are available and who are out on a delivery. 
-   - Information stored: stores information of delivery persons with a profile of them and their availability.
+   - Represents the available delivery person and orders requiring delivery. Tracks who are available and who are out on a delivery. Show performance
+     of delivery person.
+   - Information stored: stores information of delivery persons with a profile of them, their availability, and performance.
    - CRUD functionalities:
      * Create: create staff of a delivery person and their current status
      * Read: read the delivery person with their name and status
-     * Update: update the status and traits of the delivery person
+     * Update: update the status, performance, and traits of the delivery person
      * Delete: delete delivery persons if no longer needed
 
 3. Cart
