@@ -1,0 +1,12 @@
+txt File Stage 2
+
+Team Member: América Haro
+Stage 2 Contribution:
+- Designed UML diagram for the Restaurant System.
+- Defined class relationships between Admin, Restaurant, and Customer.
+- Specified attributes and methods for each class.
+- Contributed to defining how the Admin manages restaurants, and how Customers interact with them.
+
+In this stage, my main contribution was designing and refining the UML class diagram for our project. I focused on organizing and defining the relationships between the Admin, Restaurant, and Customer classes.
+
+I worked on determining each class’s attributes and methods based on their roles in the system. For example, the Admin class manages restaurant data and customer information, the Restaurant class handles menu items and reservations, and the Customer class stores user details and allows them to make or cancel reservations.
