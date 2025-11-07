@@ -1,5 +1,4 @@
 
-
 public class Review {
     //Instance variables
     private int reviewID;
@@ -9,9 +8,16 @@ public class Review {
     private Restaurant restaurant;
     private DeliveryPerson deliveryPerson;
 
-    //Constructor for Restaraunt review
+    /**
+     * Constructor for Restaurant review
+     * @param reviewID
+     * @param reviewer
+     * @param restaurant
+     * @param rating
+     * @param comment
+     */
     public Review(int reviewID, User reviewer, Restaurant restaurant, int rating, String comment){
-        this.reviewID = reviewID;
+        this.reviewID = IDgenerator.generateReviewID();
         this.reviewer = reviewer;
         this.restaurant = restaurant;
         this.rating = rating;
@@ -19,9 +25,16 @@ public class Review {
         this.deliveryPerson = null;
     }
 
-    //Constructor for DeliveryPerson review
+    /**
+     * Constructor for deliveryPerson rewiew
+     * @param reviewID
+     * @param reviewer
+     * @param deliveryPerson
+     * @param rating
+     * @param comment
+     */
     public Review(int reviewID, User reviewer, DeliveryPerson deliveryPerson, int rating, String comment){
-        this.reviewID = reviewID;
+        this.reviewID = IDgenerator.generateReviewID();
         this.reviewer = reviewer;
         this.deliveryPerson = deliveryPerson;
         this.rating = rating;
@@ -31,6 +44,7 @@ public class Review {
 
     /**
      * 
+     * @return int(reviewID)
      */
     public int getReviewid(){
         return reviewID;
@@ -38,6 +52,7 @@ public class Review {
 
     /**
      * 
+     * @return User(reviewer)
      */
     public User getReviewer(){
         return reviewer;
@@ -45,6 +60,7 @@ public class Review {
 
     /**
      * 
+     * @return int rating
      */
     public int getRating(){
         return rating;
@@ -52,6 +68,7 @@ public class Review {
 
     /**
      * 
+     * @param rating
      */
     public void setRating(int rating){
         this.rating = rating;
@@ -59,6 +76,7 @@ public class Review {
 
     /**
      * 
+     * @return String Comment
      */
     public String getComment(){
         return comment;
@@ -66,6 +84,7 @@ public class Review {
 
     /**
      * 
+     * @param comment
      */
     public void setComment(String comment){
         this.comment = comment;
@@ -73,6 +92,7 @@ public class Review {
 
     /**
      * 
+     * @return Restaurant
      */
     public Restaurant getRestaurant(){
         return restaurant;
@@ -80,12 +100,9 @@ public class Review {
 
     /**
      * 
+     * @return DeliveryPerson
      */
     public DeliveryPerson getDeliveryPerson(){
         return deliveryPerson;
     }
-
-    
-
-    
 }
