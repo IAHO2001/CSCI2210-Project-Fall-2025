@@ -18,12 +18,15 @@ public class Review {
      * @param comment
      */
     public Review(User reviewer, Restaurant restaurant, int rating, String comment){
+        if (rating < 1 || rating > 5)
+            throw new IllegalArgumentException("Rating must be between 1 and 5");
         this.reviewID = IDgenerator.generateReviewID();
         this.reviewer = reviewer;
         this.restaurant = restaurant;
         this.rating = rating;
         this.comment = comment;
         this.deliveryPerson = null;
+    }
     }
 
     /**
@@ -35,6 +38,9 @@ public class Review {
      * @param comment
      */
     public Review(User reviewer, DeliveryPerson deliveryPerson, int rating, String comment){
+        if (rating < 1 || rating > 5)
+            throw new IllegalArgumentException("Rating must be between 1 and 5");
+
         this.reviewID = IDgenerator.generateReviewID();
         this.reviewer = reviewer;
         this.deliveryPerson = deliveryPerson;
@@ -107,4 +113,5 @@ public class Review {
         return deliveryPerson;
     }
 }
+
 
