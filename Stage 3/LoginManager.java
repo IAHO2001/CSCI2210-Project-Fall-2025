@@ -53,7 +53,8 @@ public class LoginManager {
      * Get list of logged in users.
      * @return list
      */
-    public List<User> getLoggedInUssers() {
+    public List<User> getLoggedInUsers() {
         return loggedInUsers;
     }
+
 }
