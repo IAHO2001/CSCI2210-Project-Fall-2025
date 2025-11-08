@@ -8,8 +8,11 @@ import java.util.List;
 public class LoginManager {
     private List<User> loggedInUsers;
 
+    /**
+     * Constructor
+     */
     public LoginManager() {
-        loggedInUsers = new ArrayList<>();
+        this.loggedInUsers = new ArrayList<>();
     }
 
     /**
@@ -19,11 +22,11 @@ public class LoginManager {
      * @param allUsers list of users to check
      * @return User logged in or null if failed
      */
-    public User login(String username, String password, List<User> allUsers) {
-        for (User u : allUsers) {
-            if (u.getName().equals(username) && u.getPassword().equals(password)) {
-                if (!loggedInUsers.contains(u)) loggedInUsers.add(u);
-                return u;
+    public User login(String email, String password, List<User> users) {
+        for (User user : users) {
+            if (user.getEmail().equalsIgnoreCase(email) && user.getPassword().equals(password)) {
+                if (!loggedInUsers.contains(user)) loggedInUsers.add(user);
+                return user;
             }
         }
         return null;
@@ -51,6 +54,6 @@ public class LoginManager {
      * @return list
      */
     public List<User> getLoggedInUssers() {
-        return new ArrayList<>(loggedInUsers);
+        return loggedInUsers;
     }
 }
