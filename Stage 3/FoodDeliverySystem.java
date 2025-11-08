@@ -101,7 +101,6 @@ public class FoodDeliverySystem {
     public DeliveryPerson assignDeliveryPerson(Order order){
         for(DeliveryPerson driver : deliveryPersonnel){
             if(driver.getAvailability().equalsIgnoreCase("Available")){
-                driver.assignOrder(order);
                 order.assignDeliveryPerson(driver);
                 return driver;
             }
@@ -141,3 +140,4 @@ public class FoodDeliverySystem {
 
 
 }
+
