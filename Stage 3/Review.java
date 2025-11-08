@@ -17,7 +17,7 @@ public class Review {
      * @param rating
      * @param comment
      */
-    public Review(int reviewID, User reviewer, Restaurant restaurant, int rating, String comment){
+    public Review(User reviewer, Restaurant restaurant, int rating, String comment){
         this.reviewID = IDgenerator.generateReviewID();
         this.reviewer = reviewer;
         this.restaurant = restaurant;
@@ -34,7 +34,7 @@ public class Review {
      * @param rating
      * @param comment
      */
-    public Review(int reviewID, User reviewer, DeliveryPerson deliveryPerson, int rating, String comment){
+    public Review(User reviewer, DeliveryPerson deliveryPerson, int rating, String comment){
         this.reviewID = IDgenerator.generateReviewID();
         this.reviewer = reviewer;
         this.deliveryPerson = deliveryPerson;
@@ -107,3 +107,4 @@ public class Review {
         return deliveryPerson;
     }
 }
+
