@@ -1,0 +1,20 @@
+Miranda Lopez
+
+Items worked on For Stage 3: 
+
+- Created and Revised The UML Diagram using Visio on Microsoft 360 (Was in the GitHub under Stage 3 UML Diagram.pdf, but was merged with the LucidChart UML Diagram from Jacob, Documentation for my version of the draft UML for stage 3 can be provided). 
+
+- Created and Revised codes for FoodDeliverySystem class, Menu class, MenuItem class, Payment class, and Review class. (Source codes were individual til the group decided to merge them into one zip folder).
+
+- Helped my team members through our group text on Imessage to collaborate on issues such as login problems, redundancies, and other minor issues. 
+
+- Advised through group text message on how to create the commented code documentation found throughout each file in the program.
+
+- Created and obtained through testing all the outputs that our code for the Food Delivery System could provide. (This can be found on GitHub).
+
+- Created and revised the ReadMe.txt file that holds the instructions on how to compile and execute the codes. (Included examples from when I ran this code in case anyone was confused on how to do a particular step. 
+
+
+- I helped with gathering screenshots and information for the brief user guide. 
+
+- Lastly, I created this txt file with all the listed responsibilities of my person and how I contributed to this stage. 
