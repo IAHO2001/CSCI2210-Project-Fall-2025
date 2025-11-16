@@ -1,0 +1,17 @@
+Iris Haro
+
+Items worked on for Stage 3: 
+
+-Updated and finalized the UML Diagram for Stage 3 using Lucidchart and a diagram generator based on our codes, working closely with teammates to make sure all classes, associations, and updates from this stage were reflected accurately.
+
+-Created and revised the source code for the Admin, Restaurant, Customer/User, and LoginManager classes. This included implementing constructors, methods, validation, menus, and interactions so each class functioned correctly within the system.
+
+-Assisted teammates by reviewing sections of their code to ensure consistency, correct formatting, and proper integration with the overall design of the food delivery system.
+
+-Communicated frequently through group messages to share updates, and confirme that every required file for Stage 3 was uploaded to GitHub on time.
+
+-Collaborated with the team to ensure the code merged smoothly and that the UML Diagram matched the final version of all implemented classes.
+
+-Helped ensure the project followed the Stage 3 requirements by double-checking structure, class relationships, and method functionality across the system.
+
+-Lastly, I created this txt file with all the listed responsibilities of my person and how I contributed to this stage. 
