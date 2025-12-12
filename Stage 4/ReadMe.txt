@@ -14,4 +14,4 @@ Example: cd C:\Users\15056\OneDrive\Desktop\GreyhoundEats.
 
 Step 5: After you are placed into this directory/filepath then run the following command: java -jar "GreyhoundEats.jar"
 
-Step 7: you are now in teh system .
+Step 7: you are now in the system .
