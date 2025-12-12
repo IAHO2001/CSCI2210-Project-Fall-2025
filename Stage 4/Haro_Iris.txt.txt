@@ -1,0 +1,16 @@
+Iris America Haro Ortega
+
+Items worked on for Stage 4:
+
+-   Collaborated with team members to find and fix errors throughout the
+    project.
+-   Served as the Stage Leader, helping coordinate tasks and keep the
+    group organized.
+-   Updated the user guide for the JAR file to make sure instructions
+    were clear and easy to follow.
+-   Assisted in reviewing and improving code so the system could run
+    more smoothly.
+-   Helped troubleshoot issues discovered during testing and team
+    walkthroughs.
+-   Lastly, I created this txt file with all the listed responsibilities
+    of my work and how I contributed to this stage.
