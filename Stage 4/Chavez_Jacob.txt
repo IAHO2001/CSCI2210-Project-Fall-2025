@@ -1,0 +1,13 @@
+Jacob Chavez
+
+Items worked on for Stage 4: 
+
+- Created GUI interface
+
+- Collaborated with group members on code revisions to make the system operate smoothly.
+
+- Troubleshot code errors. Such as a menu crashing from invalid inputs.
+
+- Created Jar file
+
+- Lastly, I created this txt file with all the listed responsibilities of my person and how I contributed to this stage. 
