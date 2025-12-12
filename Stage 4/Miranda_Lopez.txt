@@ -1,0 +1,8 @@
+Individual Responsibilities: 
+
+- Fixed the codes for each class to reflect the instructors feedback.
+- Updated the command line version of the readme file for running and executing instructions. 
+- Helped to update the UML diagram
+- Created Individual Responsibilities txt file
+-Helped give input on the presentation and what format we were going to present it in.
+- Attempted to create the user guide using the JAR file, but due to technical issues and overheating of the laptop, I was unable to achieve this. (Instead, Iris took this on.) 
