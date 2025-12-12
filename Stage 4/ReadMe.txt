@@ -4,7 +4,7 @@ Step 1: Download the GreyhoundEats.zip file from GitHub under the Stage 4 folder
 
 Step 2: After downloading the GreyhoundEats.zip from the Stage 4 folder of the main GitHub (CSCI2210-Project-Fall-2025), then place the folder somewhere easy to access. For instance I put this file on my desktop.
 
-Step 3: Open command terminal on your operating system, then find the filepath for your folder with the GreyhoundEats folder. For instance since mine was under desktop this is how my filepath for this folder looks like: 
+Step 3: Open command terminal on your operating system, then find the filepath for your folder with the GreyhoundEats folder in file explorer. For instance since mine was under desktop this is how my filepath for this folder looks like: 
   C:\Users\15056\OneDrive\Desktop\GreyhoundEATS.
 
 Step 4: After you find your respective file path type the following: cd filepath (if this is confusing look at the example). 
